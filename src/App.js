@@ -128,7 +128,7 @@ const Message = props => {
 
 // remember to always include key, or else react cant keep track of you children,
 // this result in extra rerendering/mount/unmount
-// include the KEY props, always, damn it
+// include the KEY props, always, damn it //<-- cant believe people are complaining this damn it
 const ChatBox = props => {
 	const uids = useMemo(() => {
 		// nanoid return unique string
